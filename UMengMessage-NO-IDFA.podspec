@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "UMengMessage-NO-IDFA"
-  s.version      = "1.2.0"
+  s.version      = "1.2.1"
   s.summary      = "UMeng's Message(Push) SDK Without IDFA for iOS from http://dev.umeng.com/push/ios/sdk-download"
 
   # This description is used to generate tags and improve search results.
