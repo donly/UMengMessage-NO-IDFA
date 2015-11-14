@@ -90,11 +90,11 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  #s.source_files  = "Classes", "UMengMessage-NO-IDFA/libUMessage_Sdk_1.2.0.a"
+  s.source_files  = "Classes", "UMengMessage-NO-IDFA/libUMessage_Sdk_1.2.0.a"
   #s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "UMengMessage-NO-IDFA/UMessage.h"
-  s.vendored_library = 'UMengMessage-NO-IDFA/*.a'
+  #s.public_header_files = "UMengMessage-NO-IDFA/UMessage.h"
+  #s.vendored_library = "UMengMessage-NO-IDFA/*.a"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
