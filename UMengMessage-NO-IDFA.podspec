@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/donly/UMengMessage-NO-IDFA.git", :commit => "e2bb310842f917c906848c73d37c4817bff560ac" }
+  s.source       = { :git => "https://github.com/donly/UMengMessage-NO-IDFA.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
