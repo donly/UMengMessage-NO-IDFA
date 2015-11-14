@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "UMengMessage-NO-IDFA"
-  s.version      = "1.2.1"
+  s.version      = "1.2.2"
   s.summary      = "UMeng's Message(Push) SDK Without IDFA for iOS from http://dev.umeng.com/push/ios/sdk-download"
 
   # This description is used to generate tags and improve search results.
@@ -90,11 +90,11 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "UMengMessage-NO-IDFA/libUMessage_Sdk_1.2.0.a"
+  s.source_files  = "Classes", "UMengMessage-NO-IDFA/*.h"
   #s.exclude_files = "Classes/Exclude"
 
-  #s.public_header_files = "UMengMessage-NO-IDFA/UMessage.h"
-  #s.vendored_library = "UMengMessage-NO-IDFA/*.a"
+  s.public_header_files = "UMengMessage-NO-IDFA/*.h"
+  s.vendored_library = "UMengMessage-NO-IDFA/*.a"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
